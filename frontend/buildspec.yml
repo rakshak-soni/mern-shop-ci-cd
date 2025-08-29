@@ -10,6 +10,10 @@ phases:
   build:
     commands:
       - npm run build
+      - echo "Showing current directory contents:"
+      - ls -la
+      - echo "Showing contents of the build folder:"
+      - ls -la build
 
 artifacts:
   files:
